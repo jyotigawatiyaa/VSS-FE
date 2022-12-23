@@ -1,0 +1,182 @@
+.left_main_container {
+  justify-content: center;
+  align-items: left;
+  margin: 50px;
+}
+
+.productContainer {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  height: auto;
+  width: 100%;
+  background-color: #cddde8;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px lightgrey;
+}
+.input_order {
+  width: 100%;
+  margin: 0.1rem;
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  box-shadow: 0px 2px 6px lightgrey;
+  outline-style: none;
+  padding-left: 30px;
+  font-size: 18px;
+}
+.inputRow {
+  margin-top: 10px;
+}
+.OrderListContainer {
+  background-color: #cddde8;
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  box-shadow: 0px 1px 6px lightgrey;
+}
+.InsideOrderListContainer {
+  padding-top: 20px;
+}
+.OrderListContainer p {
+  font-size: 16px;
+  line-height: 10px;
+}
+.right_container {
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.radio {
+  padding: 12px;
+  margin-top: 15px;
+  color: #646667;
+}
+.checkbox {
+  padding: auto;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 70px;
+  padding-bottom: 50px;
+}
+.afterOrder {
+  margin-top: 75px;
+  height: auto;
+  width: 550px;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  box-shadow: 0px 2px 6px lightgray;
+}
+.afterOrder2 {
+  margin-top: 20px;
+  height: auto;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  box-shadow: 0px 2px 6px lightgray;
+}
+.insideAfterOrder {
+  padding: 20px;
+}
+.inputSelect {
+  height: 50px;
+  width: 150px;
+  border: none;
+  background-color: white;
+  box-shadow: 0px 2px 6px lightgrey;
+  border-radius: 10px;
+}
+.inputSelect > option {
+  padding-left: 40px;
+}
+.subInputs {
+  background-color: #cddde8;
+  padding: 10px;
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  outline-style: none;
+}
+.subfields {
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px grey;
+  outline-style: none;
+}
+.addButton {
+  border: none;
+  color: #4d3f2b;
+  font-size: 30px;
+}
+.custom_input {
+  height: 40px;
+  border: none;
+  box-shadow: 0px 2px 6px grey;
+  border-radius: 10px;
+  background-color: white;
+}
+.modal_body {
+  background-color: #ffffff;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.modals_input {
+  width: 100px;
+  height: 60px;
+  border: none;
+  box-shadow: 0px 2px 6px grey;
+  border-radius: 15px;
+  margin-right: 10px;
+  padding-left: 5px;
+  outline-style: none;
+}
+.modal_header {
+  background-color: #cddde8;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 10px 40px;
+}
+.modal-content {
+  background-color: transparent;
+
+  border: none;
+}
+.modal_button_container {
+  justify-content: center;
+  align-items: center;
+}
+.modal_footer {
+  background-color: #ffffff;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.modal_button {
+  background-color: #98520c;
+  width: 100px;
+  border-radius: 15px;
+}
+.overflow {
+  margin-top: 50px;
+  padding: 20px;
+  overflow-y: scroll;
+  overflow-x: inherit;
+  height: auto;
+  width: 100%;
+}
+
+/* .overflow::-webkit-scrollbar {
+  display: none;
+} */

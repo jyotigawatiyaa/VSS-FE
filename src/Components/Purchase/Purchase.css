@@ -1,0 +1,102 @@
+.outer_container {
+  display: grid;
+}
+.purchase_order {
+  border: none;
+  z-index: 1;
+  margin-left: 65px;
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.purchase_heading {
+  font-size: 32px;
+  color: grey;
+}
+.detail_container {
+  background-color: #cddde8;
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px lightgrey;
+}
+.list_container {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.content_heading {
+  font-weight: 500;
+}
+.purchase_button {
+  background-color: #98520c;
+  border: none;
+  color: white;
+  box-shadow: 0px 2px 6px grey;
+  border-radius: 10px;
+  outline-style: none;
+  text-decoration: none;
+  text-transform: none;
+}
+.purchase_order_main {
+  justify-content: center;
+  align-items: center;
+}
+.purchase_form_container {
+  height: auto;
+  width: 100%;
+  border-radius: 20px;
+}
+.input_fields {
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px grey;
+  height: auto;
+  outline-style: none;
+  padding: 10px;
+}
+.viewMoreProduct {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.main-app {
+  margin: 2% 10%;
+  border: 1px ridge #464141;
+  padding: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  color: #464141;
+}
+
+/* .container {
+  border-bottom: #fff 2px ridge;
+} */
+
+.pagination {
+  margin-top: 45px;
+  margin-left: -40px;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+
+.pagination > .active > a {
+  background-color: #47ccde;
+  color: #fff;
+}
+
+.pagination > li > a {
+  border: 1px solid #47ccde;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  color: #47ccde;
+  background-color: azure;
+}

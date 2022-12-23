@@ -1,0 +1,141 @@
+.add_btn {
+  background-color: #98520c;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  height: 40px;
+  padding: 5px;
+  box-shadow: 0px 2px 6px grey;
+}
+.user_profile_container {
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px lightgrey;
+  width: 100%;
+  background-color: #f5fafd;
+  position: relative;
+}
+.image_back_container {
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.user_image {
+  object-fit: contain;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid rgb(238, 237, 237);
+  box-shadow: 0px 2px 6px rgb(148, 148, 148);
+  cursor: pointer;
+}
+.p_tag {
+  font-size: 13px;
+  color: #294146;
+  font-weight: 800;
+}
+.profileName {
+  font-size: 15px;
+  color: #294146;
+  font-weight: 900;
+}
+.editButton {
+  height: 20px;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  float: right;
+}
+.deleteButton {
+  height: 20px;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  float: right;
+}
+.modal_header {
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.modal_title {
+  font-size: 20px;
+}
+.modal_body {
+  background-color: #f2f2f2;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.modal_footer {
+  background-color: #f2f2f2;
+}
+.modal_input {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px lightgrey;
+  height: 45px;
+  width: 100%;
+  padding-left: 25px;
+  font-size: 16px;
+  outline-style: none;
+}
+.modal {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.form-select {
+  color: grey;
+  outline-style: none;
+}
+.close {
+  border: none;
+  background-color: transparent;
+}
+.submit_button {
+  border: none;
+  background-color: #98520c;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px grey;
+}
+.close_button {
+  border: none;
+  background-color: #add;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px grey;
+}
+.custom-file {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px grey;
+  margin-top: 10px;
+}
+.custom-file > input[type="file"] {
+  border: none;
+  background-color: transparent;
+}
+.file_container {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  margin-top: 20px;
+}
+.file_button {
+  background-color: #cddde8;
+  border: none;
+  box-shadow: 0px 2px 6px grey;
+  border-radius: 10px;
+  height: 50px;
+  width: auto;
+  color: grey;
+}

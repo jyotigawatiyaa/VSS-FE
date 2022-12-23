@@ -1,0 +1,11 @@
+.reminder_heading {
+  width: 100%;
+  height: auto;
+  background-color: #89a0b0;
+  border-radius: 10px;
+}
+.reminder_heading p {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}

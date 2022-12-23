@@ -1,0 +1,139 @@
+.main_container {
+  display: flex;
+  flex-direction: row;
+}
+.sidenav {
+  height: 100%;
+  width: 7rem;
+  position: fixed;
+  justify-content: center;
+  display: flex;
+  top: 0;
+  left: 0;
+  background-color: #738998;
+  transition: 0.5s ease;
+  padding-top: 20px;
+  flex-direction: column;
+  align-items: left;
+  border-top-right-radius: -40px;
+}
+.profile_img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: fixed;
+  top: 30px;
+  margin-left: 10px;
+}
+.nav_link {
+  text-transform: none;
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.nav_text {
+  font-size: 12px;
+  color: white;
+}
+.nav-content:hover {
+  color: lightgray;
+}
+.nav_link:hover {
+  color: lightgray;
+}
+.Info_section {
+  border: none;
+  z-index: 1;
+  width: 100%;
+  margin-left: 65px;
+  min-height: 100vh;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.create_section {
+  border: none;
+  z-index: 1;
+  margin-left: 65px;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: left;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.listOrder {
+  border: none;
+  z-index: 1;
+  margin-left: 65px;
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.stocks {
+  border: none;
+  z-index: 1;
+  margin-left: 65px;
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.addUser {
+  border: none;
+  z-index: 1;
+  margin-left: 65px;
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.purchase {
+  border: none;
+  z-index: 1;
+  margin-left: 65px;
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.billing {
+  border: none;
+  z-index: 100;
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.billingPrint {
+  border: none;
+  z-index: 4;
+  margin-left: 0px;
+  min-height: 100vh;
+  max-height: auto;
+  height: auto;
+  width: 110%;
+  background-color: white;
+}
+.icone_label {
+  font-size: 10px;
+}

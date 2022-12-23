@@ -1,0 +1,64 @@
+{
+  "name": "vss_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://65.0.129.68/web-front",
+  "dependencies": {
+    "@material-ui/core": "^4.12.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "apexcharts": "^3.27.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "canvasjs": "^1.8.3",
+    "canvasjs-react-charts": "^1.0.5",
+    "chart.js": "^3.7.1",
+    "chartjs": "^0.3.24",
+    "dotenv": "^8.2.0",
+    "react": "^17.0.2",
+    "react-apexcharts": "^1.3.9",
+    "react-bootstrap": "^1.6.1",
+    "react-calendar": "^3.4.0",
+    "react-chartjs-2": "^4.0.1",
+    "react-datepicker": "^4.2.1",
+    "react-dom": "^17.0.2",
+    "react-loader-spinner": "^4.0.0",
+    "react-moment": "^1.1.1",
+    "react-paginate": "^7.1.3",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-history": "git+https://github.com/ymzuiku/react-router-hash-history.git",
+    "react-scripts": "4.0.3",
+    "recharts": "^2.1.9",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

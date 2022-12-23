@@ -1,0 +1,12 @@
+.billing_container {
+  height: auto;
+  background-color: #a3c5dc;
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px lightgrey;
+  font-size: 1.2rem;
+}
+.list_outside {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}

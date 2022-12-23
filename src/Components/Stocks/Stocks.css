@@ -1,0 +1,141 @@
+.outer_most_container {
+  justify-content: center;
+  align-items: left;
+  display: block;
+  margin-top: 25px;
+}
+.heading_section > h3 {
+  color: gray;
+}
+.heading_section > span {
+  color: #294146;
+}
+.product > select {
+  border: none;
+  box-shadow: 0px 2px 6px lightgray;
+  border-radius: 8px;
+  height: 40px;
+  width: 160px;
+  padding: 0px 10px;
+  background-color: transparent;
+  color: #294146;
+}
+
+.filter > select {
+  border: none;
+  box-shadow: 0px 2px 6px lightgray;
+  border-radius: 8px;
+  height: 40px;
+  width: 160px;
+  padding: 0px 10px;
+  background-color: #cddde8;
+  color: #294146;
+}
+.product > span {
+  color: #294146;
+}
+table {
+  margin-bottom: 2em;
+  height: auto;
+  border-collapse: collapse;
+  border: hidden;
+  height: auto;
+}
+
+th {
+  padding: 10pt;
+  border: 1px solid rgb(88, 88, 88);
+  border-bottom-style: none;
+  font-weight: normal;
+}
+
+td {
+  padding: 10pt;
+  border: 1px solid #cccccc;
+  font-size: 11px;
+}
+
+table tr:first-child th:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+table tr:first-child th:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.searchInput {
+  border: none;
+  width: 90%;
+  outline-style: none;
+  margin-left: 10px;
+}
+.searchContainer {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px lightgray;
+}
+.addStock_button {
+  background-color: #98520c;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px grey;
+}
+.modal-header {
+  background-color: #cddde8;
+  text-align: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.modal-body {
+  background-color: #cddde8;
+}
+.modal-body input {
+  border: none;
+  outline-style: none;
+  padding: 10px;
+  outline-style: none;
+  width: 100%;
+}
+.measure_conatiner {
+  display: flex;
+  background-color: white;
+  width: auto;
+  border-radius: 15px;
+  box-shadow: 0px 2px 6px grey;
+  flex-grow: initial;
+}
+.modal-body span {
+  border: none;
+  outline-style: none;
+  outline-style: none;
+  color: grey;
+}
+.model_button {
+  background-color: #5d7479;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px lightgray;
+  color: white;
+}
+
+.modal-body select {
+  padding: 13px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 2px 6px grey;
+  background-color: white;
+  outline-style: none;
+  color: grey;
+}
+.modal-footer {
+  background-color: #cddde8;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.modal-body label {
+  color: #5d7479;
+}

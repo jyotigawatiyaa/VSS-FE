@@ -1,0 +1,32 @@
+.orderDiv {
+  height: auto;
+  width: 600px;
+  border-radius: 30px;
+  background-color: #cddde8;
+  border: none;
+  box-shadow: 0px 2px 6px lightgrey;
+}
+.heading {
+  font-size: 15px;
+  font-weight: bold;
+  color: #0e2434;
+  opacity: 0.7;
+}
+.main_heading {
+  font-size: 20px;
+}
+.content {
+  font-size: 15px;
+}
+.outest {
+  justify-content: center;
+  align-items: center;
+}
+._head {
+  font-size: 1rem;
+  color: #0e2434;
+  font-weight: 400;
+}
+._cont {
+  font-size: 1rem;
+}

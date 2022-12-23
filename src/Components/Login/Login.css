@@ -1,0 +1,30 @@
+.Login_Container {
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  display: grid;
+}
+.Login_back_image {
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../images/Logo.svg");
+  max-height: 100vh;
+  min-height: 98vh;
+  min-width: 22vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  display: grid;
+}
+
+.form_container button {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  background-color: #696969;
+  width: 100px;
+}
+.btn-div {
+  justify-content: center;
+  align-items: center;
+}
